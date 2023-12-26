@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>life.majiang.community</groupId>
-    <artifactId>community</artifactId>
+    <artifactId>find-job</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>community</name>
     <description>community</description>

@@ -56,7 +56,7 @@ java -jar -Dspring.profiles.active=production target/community-0.0.1-SNAPSHOT.ja
 ```
 5. 访问项目
 ```
-http://localhost:8887
+http://localhost:8888
 ```
 
 ## 其他
