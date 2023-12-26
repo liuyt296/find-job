@@ -10,7 +10,7 @@
         <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"></plugin>
         <jdbcConnection
                 driverClass="@db.driver@"
-                connectionURL="@db.url@community"
+                connectionURL="@db.url@find_job?useSSL=false"
                 userId="@db.user@"
                 password="@db.password@">
         </jdbcConnection>

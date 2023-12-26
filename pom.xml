@@ -141,7 +141,7 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>5.2.4</version>
                 <configuration>
-                    <url>${db.url}community</url>
+                    <url>${db.url}find_job?useSSL=false</url>
                     <user>${db.user}</user>
                     <password>${db.password}</password>
                 </configuration>
