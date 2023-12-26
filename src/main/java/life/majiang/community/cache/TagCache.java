@@ -16,19 +16,15 @@ public class TagCache {
         List<TagDTO> tagDTOS = new ArrayList<>();
 
         TagDTO server = new TagDTO();
-        server.setCategoryName("女王推荐");
-        server.setTags(Arrays.asList("优质女S", "情侣主"));
+        server.setCategoryName("日结");
+        server.setTags(Arrays.asList("跑腿", "力工", "传单", "其他", "需要身份信息"));
         tagDTOS.add(server);
 
         TagDTO program = new TagDTO();
-        program.setCategoryName("点评女王");
-        program.setTags(Arrays.asList("宝藏", "会玩", "性价比高", "不会玩", "身材好", "年轻", "素人"));
+        program.setCategoryName("长期");
+        program.setTags(Arrays.asList("工厂", "待遇好", "管饭", "管住宿"));
         tagDTOS.add(program);
 
-        TagDTO framework = new TagDTO();
-        framework.setCategoryName("交流心得");
-        framework.setTags(Arrays.asList("女S", "夫妻"));
-        tagDTOS.add(framework);
 
         return tagDTOS;
     }
